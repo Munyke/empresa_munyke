@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.logo1{
+    width: 100%;
+    height: 500px;
+    background-color: #007BFF;
+    color: white;
+    display: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.logo1:hover {
+    transform: scale(1.05); /* Leve aumento de tamanho */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Sombra mais intensa ao passar o mouse */
+}
+
+nav ul {
+    color: white;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    color: white;
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Container das Imagens */
+.image-container {
+    display: flex;
+    gap: 10px; /* Espaço entre as imagens */
+}
+
+.image-container img {
+    width: 250px; /* Define a largura da imagem */
+    height: 250px; /* Define a altura da imagem igual à largura para torná-la quadrada */
+    object-fit: cover; /* Garante que a imagem preencha o quadrado sem distorção */
+    border-radius: 8px; /* Bordas arredondadas nas imagens */
+}
+
+.image-container2 {
+    width: 250px;
+    height: 750px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Container dos carros */
+.carros-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Estilo individual de cada carro */
+.carro-item {
+    background: white;
+    padding: 15px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Imagem do carro */
+.carro-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Nome e preço */
+.carro-item h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.carro-item h2 br + span {
+    display: block;
+    font-size: 1.4em;
+    color: #ff6600; /* Cor destacada para o preço */
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Destacar valor */
+.carro-item .preco {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+/* Informações do carro */
+.carro-item p {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.carro-item p strong {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.carro-item ul {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.carro-item ul li {
+    list-style: disc;
+    margin: 5px 0;
+}
+/* Efeito ao passar o mouse sobre a imagem do carro */
+.carro-item:hover img {
+    transform: scale(1.1); /* Aumenta a imagem */
+}
+
+/* Efeito ao passar o mouse sobre o item do carro */
+.carro-item:hover {
+    transform: translateY(-5px); /* Move ligeiramente o item para cima */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
